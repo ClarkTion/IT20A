@@ -30,6 +30,15 @@ public class Queuetest {
     pq.add (90);
     
         System.out.println(pq);
-        
+        //        PriorityQueue <String> patients = new PriorityQueue <>(Comparator.comparingInt(
+//                s -> Integer.parseInt(s.replaceAll("[^0-9]", ""))
+//        ));
+//        
+//        patients.addAll(arrivalpatients);
+//        
+//        System.out.println("=== Treatment Order ===");
+//        while (!patients.isEmpty()) {
+//            System.out.println("Treating: " + patients.poll());
+//        }
     }
 }
